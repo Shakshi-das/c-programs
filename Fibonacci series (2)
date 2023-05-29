@@ -1,4 +1,4 @@
-// Fibonacci upto nth number
+// Fibonacci upto nth term
 
 #include <stdio.h>
 
