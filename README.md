@@ -1,2 +1,3 @@
 # c-programs
-A repo of some basic c programs and projects.
+
+A repo of some basic and intermediate level c programs. 
