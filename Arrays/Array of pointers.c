@@ -1,5 +1,4 @@
-//program to find the sum of elements and
-// create an array of pointers from an array
+//program to find the sum of elements and create an array of pointers from an array
 
 #include <stdio.h>
 
