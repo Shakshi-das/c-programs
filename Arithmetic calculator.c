@@ -1,4 +1,5 @@
-// program to Implement simple arithmetic calculator using switch case
+// program to Implement simple arithmetic calculator using 
+//switch case
 
 #include <stdio.h>
 
