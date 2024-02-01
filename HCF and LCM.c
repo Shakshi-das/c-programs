@@ -1,3 +1,4 @@
+//program to calculate hcf and lcm of two integers
 #include <stdio.h>
 
 int main() {
