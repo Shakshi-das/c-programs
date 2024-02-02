@@ -1,6 +1,6 @@
-//c program to Find the largest and smallest among three numbers supplied by user.
-#include <stdio.h>
+//c program to Find the largest and smallest among three numbers supplied by user 
 
+#include <stdio.h>
 int main() {
 
     int n1, n2, n3;
@@ -48,4 +48,3 @@ int main() {
     return 0;
 
 }
-
