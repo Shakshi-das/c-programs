@@ -1,4 +1,4 @@
-//program to generate a magic square
+//program to generate a magic square of order 2
 
 #include<stdio.h>
 
