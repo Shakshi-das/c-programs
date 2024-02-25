@@ -1,4 +1,5 @@
 //program for pointer to pointer conversion
+
 #include<stdio.h>
 
 int main()
@@ -18,11 +19,8 @@ int main()
 
     // take the value using the pptr
     printf("\n\nValue of var = %d\n\n", var);
-
     printf("\n\nValue available at *ptr = %d\n\n", *ptr);
-
     printf("\n\nValue available at **pptr = %d\n\n", **pptr);
-
     printf("\n\n\t\t\tCoding is Fun !\n\n\n");
     return 0;
 }
