@@ -21,7 +21,6 @@ int main() {
 
         for (c = num - r; c >= 1; c--)
             printf("*");
-
         n--;
         printf("\n");
 
@@ -42,7 +41,5 @@ int main() {
         printf("\n");
 
     }
-
     return 0;
-
 }
