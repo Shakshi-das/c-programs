@@ -7,27 +7,18 @@ int main()
 {
 
   int n,arr[100][100],i=0,j=0;
-
   printf("enter the size of the array ");
-
   scanf("%d",&n);
-
   i=n/2;
-
   j=n-1;
 
   for(int k=1;k<=n*n;k++)
-
   {
-
     arr[i][j]=k;
-
     i--;
-
     j++;
 
     if(i==-1&&j==n)
-
     {
 
         i=0;
