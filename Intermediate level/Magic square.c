@@ -22,7 +22,6 @@ int main()
     {
 
         i=0;
-
         j=n-2;
 
     }
@@ -32,11 +31,9 @@ int main()
     {
 
         if(i==-1)
-
             i=n-1;
 
         if(j==n)
-
             j=0;    
 
     }
@@ -46,13 +43,11 @@ int main()
     {
 
         i++;
-
         j=j-2;
 
     }
 
   }
-
   printf("The square matrix is\n");
 
     for(int i=0;i<n;i++)
