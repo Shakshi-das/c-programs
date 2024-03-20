@@ -7,12 +7,10 @@ int fact(int n)
 
 {
 
-    int i,fact=1;
-
+    int i,fact=1
+    
     for(i=1;i<=n;i++)
-
         fact=fact*i;
-
     return fact;
 
 }
@@ -22,15 +20,10 @@ int main()
 {
 
     float x,Q,sum=0;
-
     int i,j,limit;
-
     printf("Enter the value of x of sinx series: ");
-
     scanf("%f",&x);
-
     printf("Enter the limit upto which you want to expand the series: ");
-
     scanf("%d",&limit);
 
     Q=x;
