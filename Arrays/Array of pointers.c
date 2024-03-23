@@ -1,7 +1,6 @@
 //program to find the sum of elements and create an array of pointers from an array
 
 #include <stdio.h>
-
 #include <stdlib.h>
 
 int main()
@@ -9,15 +8,10 @@ int main()
 {
 
     int n,i,sum = 0;
-
     printf("Enter the size\n");
-
     scanf("%d",&n);
-
     int a[n];
-
     int *b[n];
-
     printf("Enter the elements of the array\n");
 
     for (i = 0; i < n; i++)
