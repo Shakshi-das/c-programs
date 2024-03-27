@@ -7,9 +7,7 @@ int main()
 {
 
     int n = 0 , arr[100] , ele = 0 , flag = 0 , index = 0;
-
     printf("Enter the size of array: \n");
-
     scanf("%d",&n);
 
     for (int i = 0; i < n; i++)
@@ -17,13 +15,11 @@ int main()
     {
 
         printf("Enter a number: ");
-
         scanf("%d",&arr[i]);
 
     }
 
     printf("Enter the elemnet to be searched: ");
-
     scanf("%d",&ele);
 
     for (int i = 0; i < n; i++)
@@ -35,9 +31,7 @@ int main()
         {
 
             flag = 1;
-
             index = i;
-
             break;
 
         }
