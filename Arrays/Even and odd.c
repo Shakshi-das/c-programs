@@ -47,17 +47,13 @@ int main()
 
     {
         printf("%d\n",even[i]);
-
     }
-
     printf("Elements of Odd array: \n");
 
     for (int i = 0; i < o; i++)
 
     {
-
         printf("%d\n",odd[i]);
-
     }
 
     return 0;
