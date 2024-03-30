@@ -28,22 +28,16 @@ int main()
     printf("Enter the elements of second matrix\n");
 
     for ( c = 0 ; c < p ; c++ )
-
       for ( d = 0 ; d < q ; d++ )
-
         scanf("%d", &second[c][d]);
 
 
     for ( c = 0 ; c < m ; c++ )
 
     {
-
       for ( d = 0 ; d < q ; d++ )
-
       {
-
         for ( k = 0 ; k < p ; k++ )
-
         {
 
             sum = sum + first[c][k]*second[k][d];
@@ -51,9 +45,7 @@ int main()
         }
 
  
-
         multiply[c][d] = sum;
-
         sum = 0;
 
       }
@@ -62,22 +54,14 @@ int main()
 
     printf("Product of entered matrices:-\n");
 
-
     for ( c = 0 ; c < m ; c++ )
-
     {
-
       for ( d = 0 ; d < q ; d++ )
-
         printf("%d\t", multiply[c][d]);
 
- 
-
       printf("\n");
-
     }
-
-  }
+   }
 
   return 0;
 
