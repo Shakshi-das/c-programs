@@ -37,15 +37,11 @@ int main() {
        printf("The given matrix is \n");
 
             for (i = 0; i < m; ++i)
-
                {
 
                  for (j = 0; j < n; ++j) 
-
                     {
-
                        printf(" %d", array[i][j]);
-
                     }
 
                printf("\n");
@@ -54,7 +50,6 @@ int main() {
 
  
         printf("\n The frequency of occurrence of odd number  = %d \n", odd);
-
         printf("The frequency of occurrence of even number = %d\n", even);
 
 }
