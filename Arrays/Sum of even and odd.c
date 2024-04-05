@@ -28,9 +28,6 @@ int main() {
                          ++odd;
 
                  }
-
- 
-
         }
 
  
@@ -43,12 +40,10 @@ int main() {
                     {
                        printf(" %d", array[i][j]);
                     }
-
                printf("\n");
 
               }
 
- 
         printf("\n The frequency of occurrence of odd number  = %d \n", odd);
         printf("The frequency of occurrence of even number = %d\n", even);
 
