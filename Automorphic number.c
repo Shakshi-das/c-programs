@@ -2,7 +2,8 @@
 
 #include <stdio.h>
 
-int main() {
+int main() 
+{
 
     int num, sqr, temp, last;
     int n =0;
@@ -23,13 +24,10 @@ int main() {
     last = sqr % den;
 
     if(last == num)
-
         printf("Automorphic number \n");
 
     else
-
         printf("Not Automorphic \n");
 
     return 0;
-
 }
