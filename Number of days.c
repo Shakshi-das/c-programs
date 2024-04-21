@@ -14,15 +14,11 @@ int main() {
     else if(month == 2)
 
     {
-
         printf("Number of days is 28");
-
     }    
 
     else
-
         printf("Number of days is 30");
 
     return 0;
-
 }
