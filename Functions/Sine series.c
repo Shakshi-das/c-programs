@@ -35,21 +35,16 @@ int main()
     {
 
         if(i%2!=0)
-
         {
-
             sum=sum+pow(x,j)/fact(j);
-
         }
 
         else
-
             sum=sum-pow(x,j)/fact(j);
 
     }
 
     printf("Sin(%0.1f): %f",Q,sum);
-
     return 0;
 
 }
