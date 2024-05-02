@@ -22,7 +22,6 @@ int main() {
 
   hcf = a;
   lcm = (x*y)/hcf;
-
   printf("HCF of %d and %d = %d\n", x, y, hcf);
   printf("LCM of %d and %d = %d\n", x, y, lcm);   
 
