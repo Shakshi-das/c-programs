@@ -10,9 +10,11 @@ int main() {
     scanf("%d",&b);
     printf("\n Values before swapping \n ");
     printf("a=%d,b=%d",a,b);
+  
     c=a;
     a=b;
     b=c;
+  
     printf("\n Values after swapping \n ");
     printf("a=%d,b=%d",a,b);
     printf("\n");
